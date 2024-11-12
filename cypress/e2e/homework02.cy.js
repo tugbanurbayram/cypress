@@ -217,8 +217,6 @@ describe("Testing Front End Project", () => {
         cy.get('#password').type("1234")
         cy.get('#login_btn').click()
         cy.get('#error_message').should('have.text', "Invalid Username entered!")
-
-
     })
 
 })
